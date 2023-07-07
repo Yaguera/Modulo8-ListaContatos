@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="images/4298389.png" alt="lista telefonica">
+            <h1>Lista de Contatos</h1>
+        </header>
+        <div class="content">
+            <form id="formulario">
+                <input type="text" required placeholder="Nome do contato" id="nome-contato"><br>
+                <br>
+                <input type="tel" required placeholder="Número do contato/DDD" id="numero-contato" minlength="14"
+                    maxlength="15">
+                <div class="checkbox">
+                    <input class="check" type="checkbox" id="Whatsapp" name="celular" value="Whatsapp" unchecked>
+                    <label for="tipo">Whatsapp</label>
+                    <input class="check" type="checkbox" id="Ligacao" name="celular" value="Ligacao" unchecked>
+                    <label for="ligacao">Ligação</label>
+                </div>
+                <button id="botao" type="submit">Adicionar +</button>
+            </form>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Contato</th>
+                        <th>Número</th>
+                        <th>Tipo</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <tfoot id="total">
+                    <tr>
+                        <td>Quantidade de Contatos</td>
+                        <td id="totalContatos">---</td>
+                        <td><button id="apagar">Apagar Lista</button></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding-top: 50px;
+    background-color: #CE3760;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+header img {
+    width: 48px;
+    margin-right: 8px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form input {
+    background-color: #D3CFCE;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-right: 10px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    background-color: #7837ce;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding-right: 10px;
+}
+
+.check {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+form label {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form button,
+button {
+    background-color: #3BA485;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 24px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+table th {
+    color: #9be3f9;
+    border-bottom: 2px solid #9BC4F9;
+    padding: 16px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    color: rgba(155, 196, 249, 1);
+    font-size: 16px;
+    padding: 18px 0;
+    border-bottom: 1px solid #9BC4F9;
+
+}
+
+tfoot tr td {
+    border: none;
+}
+
+tfoot button {
+    background-color: red;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 0;
+    display: none;
+}
