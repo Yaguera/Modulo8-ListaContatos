@@ -32,4 +32,4 @@
 * VSCode
 <br>
 
-## Link do deploy: <https://atividade-modulo-5-indol.vercel.app/>
+## Link do deploy: <https://listacontatos-modulo8.vercel.app/>
