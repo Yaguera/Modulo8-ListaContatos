@@ -1,4 +1,4 @@
-<h1 align="center">Projeto Biblioteca Popular</h1>
+<h1 align="center">Projeto Lista de Contatos</h1>
 
 <div align="center">
 
